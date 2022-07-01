@@ -102,7 +102,7 @@ public class ScalaSuffixChecker {
                     }
                     LOG.trace("Parsing module '{}'.", moduleName);
 
-                    // skip: [INFO] org.apache.flink:flink-annotations:jar:1.14-SNAPSHOT
+                    // skip: [INFO] org.apache.flink:flink-annotations:jar:1.14.3
                     bufferedReader.readLine();
 
                     boolean infected = false;
